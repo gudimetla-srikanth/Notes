@@ -1,0 +1,42 @@
+.login_comp {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: rgba(215, 234, 234, 0.5);
+    height: 300px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.login_email,
+.login_password,
+.login_submit,
+.register,
+.register_name,
+.register_email,
+.register_password,
+.register_submit,
+.register,
+.login,
+.login_head,
+.register_head,
+.login_email_name,
+.login_password_name,
+.register_name_name,
+.register_email_name,
+.register_password_name {
+    margin: 10px;
+}
+
+.login_head,
+.register_head {
+    font-size: 30px;
+}
+
+.login_email_name,
+.login_password_name,
+.register_name_name,
+.register_email_name,
+.register_password_name {
+    font-weight: bold;
+}

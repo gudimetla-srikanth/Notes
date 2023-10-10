@@ -1,0 +1,39 @@
+.allnotes {
+    background-color: rgb(193, 193, 221);
+    margin-top: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.notes_title {
+    font-size: 40px;
+}
+
+.notes_desc {
+    font-size: 25px;
+}
+
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.notes_delete {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.notes_update {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.upde {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

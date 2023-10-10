@@ -1,0 +1,19 @@
+.nav {
+    background-color: rgba(236, 236, 244, 0.7);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.logout {
+    background-color: red;
+    border: none;
+    border-radius: 5px 5px;
+}
+
+.nav_notes {
+    position: relative;
+    left: 380px;
+}
