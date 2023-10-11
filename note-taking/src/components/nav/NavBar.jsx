@@ -8,7 +8,7 @@ export default function NavBar() {
     const state = useSelector(state => state)
     const dispatch = useDispatch()
     const logoutHandle = () => {
-        dispatch({ type: 'Logout', payload: "" })
+        dispatch({ type: "Logout", payload: "" })
     }
     const handle = async () => {
         navigate('/notes')

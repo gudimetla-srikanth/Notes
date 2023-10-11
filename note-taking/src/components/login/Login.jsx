@@ -33,6 +33,17 @@ export default function Login() {
             alert("register failed")
         }
     }
+    const loginHandle = async () => {
+        const { data } = await axios.post('http://localhost:8000/api/login', loginData)
+        if (data.success) {
+            dispatch({ type: "Login", payload: loginData.email })
+            console.log(loginData)
+            navigate('/')
+        } else {
+            alert("login failed")
+        }
+    }
+
     return (
         <div className='login_comp'>
             {
@@ -47,7 +58,7 @@ export default function Login() {
                         <input type="password" name="password" value={loginData.password} onChange={dataHandle} />
                     </div>
                     <div className="login_submit">
-                        <button>Login</button>
+                        <button onClick={loginHandle}>Login</button>
                     </div>
                     <div className="register">
                         <button onClick={() => {

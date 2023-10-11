@@ -1,5 +1,5 @@
 
-const initial = "srikanth@gmail.com";
+const initial = "";
 const reducer = (state = initial, action) => {
     if (action.type === 'Login') {
         return action.payload
