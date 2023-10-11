@@ -15,7 +15,7 @@ export default function NavBar() {
     }
     return (
         <div className="nav">
-            <div className="email">email</div>
+            <div className="email">{state}</div>
             <div className="nav_notes" onClick={handle}>MyNotes</div>
             <div className="logout" onClick={logoutHandle}>Logout</div>
 
